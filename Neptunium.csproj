@@ -8,19 +8,13 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>Polaryx</Authors>
         <PackageProjectUrl>https://github.com/PolaryxDE/Neptunium</PackageProjectUrl>
-        <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/PolaryxDE/Neptunium.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>Networking TCP</PackageTags>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/PolaryxDE/Neptunium/main/LICENSE</PackageLicenseUrl>
+        <PackageIconUrl>https://i.imgur.com/CQmm4BP.png</PackageIconUrl>
     </PropertyGroup>
-
-    <ItemGroup>
-      <None Update="icon.png">
-        <Pack>True</Pack>
-        <PackagePath></PackagePath>
-      </None>
-    </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="DotNetty.Handlers" Version="0.7.4" />
